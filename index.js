@@ -18,6 +18,8 @@
             console.log("Product Card Method Called",this.price);
             return {productName:this.name,price:this.price};
         }
+        this.maximumValueProduct=function(arr){
+        }
     }
 
     CardNew.prototype.getDiscountedPrice = function () {
@@ -46,24 +48,26 @@
     const data=[data1,data2,data3,data4];
 
 
+
+
     console.log(data);
  
 
 
 
-    var element = document.getElementsByClassName("product-card");
+    // var element = document.getElementsByClassName("product-card");
 
-    for (var i = 0; i < element.length; i++) {
-        element[i].addEventListener("mouseover", function () {
-            this.style.transform = "scale(1.1)";
-            this.style.transition = "all 0.3s ease-in-out";
-        });
+    // for (var i = 0; i < element.length; i++) {
+    //     element[i].addEventListener("mouseover", function () {
+    //         this.style.transform = "scale(1.1)";
+    //         this.style.transition = "all 0.3s ease-in-out";
+    //     });
 
-        element[i].addEventListener("mouseleave", function () {
-            this.style.transform = "scale(1)";
-            this.style.transition = "all 0.3s ease-in-out";
-        });
-    }
+    //     element[i].addEventListener("mouseleave", function () {
+    //         this.style.transform = "scale(1)";
+    //         this.style.transition = "all 0.3s ease-in-out";
+    //     });
+    // }
 
 
 })();

@@ -7,4 +7,9 @@
     padding: 10px;
     box-shadow: 2px 2px 5px grey;
     display: inline-block;
+    margin-top: 15px;
+   
 }
+.card8:hover{
+    transform: scale(1.1);
+transition: all 0.3s ease-in-out;}
